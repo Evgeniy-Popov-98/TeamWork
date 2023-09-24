@@ -22,6 +22,19 @@ body {
   color: #fff;
 }
 
+button {
+  padding: 0;
+  cursor: pointer;
+  background-color: none;
+  font-family: inherit;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -59,3 +72,47 @@ body {
   padding-top: 29px;
   padding-bottom: 28px;
 }
+
+.hero-section {
+  background-color: #06071B;
+  padding: 145px 0;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.hero-inner {
+
+}
+
+.hero-title {
+  margin-bottom: 12px;
+}
+
+.hero-subtitle {
+  margin-bottom: 28px;
+}
+
+.hero-list {
+  margin-bottom: 62px;
+}
+
+.hero-list-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.hero-list-text {}
+
+.hero-btn {
+  padding: 11px 60px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+    background: linear-gradient(90deg, #00C5EB -1.97%, #B544FE 89.43%);
+    color: #FFF;
+}
+
+.hero-image {}
