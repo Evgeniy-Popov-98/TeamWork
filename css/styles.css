@@ -1,13 +1,30 @@
-* {
+p,
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 0;
 }
 
-ul {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
 }
 
 .container {
   max-width: 1280px;
+  margin: 0 auto;
   padding: 0 16px;
 }
 
@@ -15,9 +32,30 @@ ul {
   background-color: #06071b;
 }
 
+.container-header {
+}
+
 .navigation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: linear-gradient(
+    90deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+  backdrop-filter: blur(17.5px);
 }
 .header-list {
+  display: flex;
+  gap: 40px;
 }
 .header-item {
+}
+
+.header-link {
+  display: block;
+  padding-top: 29px;
+  padding-bottom: 28px;
 }
